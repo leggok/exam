@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container {
+    width: 86%;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #E1DECE;
+    font-family: "RobotoRegular";
+  }
+  
+  body {
+    background-color: #191919;
+  }
+  .buttons {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+  }
+  .buttons a {
+    margin-bottom: 10px;
+  }
+  .btn {
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    color: #191919;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 20px 40px;
+    transition: all ease 0.2s;
+  }
+  .btn:hover {
+    transition: all ease 0.2s;
+    color: #fff;
+    background-color: #191919;
+  }
+  .link_btn {
+    font-family: "GaramondRegular";
+    font-size: 14px;
+    color: #E1DECE;
+    background-color: #191919;
+    line-height: 16px;
+    border: 1px solid #E1DECE;
+    border-radius: 5px;
+    width: 220px;
+    padding: 21px 54px;
+    margin-right: 75px;
+    transition: all ease 0.2s;
+  }
+  .link_btn:hover {
+    transition: all ease 0.2s;
+    color: #191919;
+    background-color: #E1DECE;
+    border-color: #191919;
+  }
+  
+  .len {
+    padding: 21px 34px;
+  }
+
+  .title {
+    font-family: "GaramondBold";
+    font-size: 50px;
+    line-height: 62px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    position: relative;
+  }
+  .title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 1px;
+    width: 100%;
+    background-color: #E1DECE;
+  }
+
+  #phone, #phone_portfolio {
+    height: 65px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 309px;
+    margin-bottom: 12px;
+    padding: 5px 10px;
+    font-family: RobotoRegular;
+  }
+  #phone::placeholder, #phone_portfolio::placeholder {
+    text-align: center;
+    font-family: RobotoRegular;
+  }
+  
+  #btnSubmit {
+    width: 90%;
+    max-width: 309px;
+  }
+  .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(25, 25, 25, 0.7);
+  }
+  .modal .inner {
+    background-color: #E1DECE;
+    position: relative;
+    text-align: center;
+    border: 2px solid #191919;
+    border-radius: 5px;
+    padding: 31px 10px;
+    width: 90%;
+    max-width: 440px;
+    height: 308px;
+  }
+  .modal .inner .form {
+    flex-direction: column;
+  }
+  .modal .inner_top {
+    font-family: RobotoRegular;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto 16px;
+  }
+  .modal .inner_middle {
+    font-family: RobotoRegular;
+    font-size: 16px;
+    margin: 0 auto;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+  .modal .inner_bottom {
+    font-family: "Segoe";
+    font-size: 16px;
+  }
+  .modal .inner button {
+    background-color: #191919;
+    color: #fff;
+    font-family: RobotoRegular;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    line-height: 19px;
+    padding: 23px 0;
+    border: 1px solid #191919;
+    transition: all ease 0.2s;
+  }
+  .modal .inner button:hover {
+    transition: all ease 0.2s;
+    background-color: #E1DECE;
+    color: #191919;
+  }
+  .modal .inner .close {
+    position: absolute;
+    right: 10px;
+    width: 19px;
+    height: 17px;
+    top: 8px;
+    color: #E1DECE;
+    background-color: #191919;
+    border-radius: 50%;
+    padding: 0;
+    padding-bottom: 18px;
+  }
+  .modal .inner .success {
+    padding: 26px 10px;
+  }
+  .modal .inner .success .inner_top {
+    padding: 0 48px;
+    margin-bottom: 30px;
+  }
+  .modal .inner .success .inner_middle {
+    margin-bottom: 44px;
+  }
+  .modal .inner .success .inner_middle a {
+    color: #191919;
+    text-decoration: underline;
+  }
+  
+  .success {
+    display: none;    
+  }
+  
+  .form {
+    display: none;
+  }
+  
+  .open {
+    display: flex;
+    flex-direction: column;
+  }
+  .open_scs {
+    display: block;
+  }
+  
+  .err {
+    border: 2px solid red;
+  }
+  
+  .err_form::placeholder {
+    color: red;
+  }
+  
+  .dn {
+    display: none;
+  }
+  
+    

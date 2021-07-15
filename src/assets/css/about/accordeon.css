@@ -1,0 +1,45 @@
+.accordion {
+    margin-top: -200px;
+    position: relative;
+  }
+  .accordion .title {
+    margin-bottom: 28px;
+  }
+  
+  .accordeon {
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .accordeon dl {
+    margin-bottom: 30px;
+  }
+  .accordeon dt {
+    font-family: "GaramondBold";
+    font-size: 24px;
+    line-height: 27px;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordeon dt::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 9px;
+    border: 14px solid transparent;
+    border-top: 14px solid #E1DECE;
+  }
+  .accordeon dd {
+    padding-top: 50px;
+    line-height: 25px;
+  }
+  .accordeon dd p {
+    margin-bottom: 27px;
+  }
+  .accordeon .active::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 9px;
+    border: 14px solid transparent;
+    border-bottom: 14px solid #E1DECE;
+  }

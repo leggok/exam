@@ -1,0 +1,69 @@
+.port_form {
+    padding-bottom: 260px;
+  }
+  .port_form .content {
+    border: none;
+    border-radius: 5px;
+    background-color: #E1DECE;
+    padding-top: 0;
+    color: #191919;
+    font-family: "GaramondBold";
+    font-size: 27px;
+    line-height: 32px;
+    display: flex;
+  }
+  .port_form .content img {
+    border-radius: 5px 0 0 5px;
+  }
+  .port_form .content_with_form {
+    padding: 20px;
+  }
+  .port_form .content_with_form #phone_portfolio {
+    width: 100%;
+    max-width: 309px;
+  }
+  .port_form .content_with_form .top_form {
+    margin-bottom: 42px;
+  }
+  .port_form .content_with_form .form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .port_form .content_with_form .form a {
+    background-color: #191919;
+    color: #fff;
+    font-family: RobotoRegular;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    line-height: 19px;
+    padding: 23px 0;
+    border: 1px solid #191919;
+    transition: all ease 0.2s;
+  }
+  .port_form .content_with_form .form a:hover {
+    transition: all ease 0.2s;
+    background-color: #E1DECE;
+    color: #191919;
+  }
+  
+  .portbtn {
+    background-color: #191919;
+    color: #fff;
+    font-family: RobotoRegular;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    line-height: 19px;
+    padding: 23px 0;
+    border: 1px solid #191919;
+    transition: all ease 0.2s;
+    width: 100%;
+    max-width: 309px;
+  }
+  .portbtn:hover {
+    transition: all ease 0.2s;
+    background-color: #E1DECE;
+    color: #191919;
+  }
