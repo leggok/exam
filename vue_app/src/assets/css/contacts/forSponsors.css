@@ -1,0 +1,16 @@
+.for_sponsors {
+    margin-bottom: 100px;
+  }
+  .for_sponsors .top_txt {
+    font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .for_sponsors .main_txt {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .for_sponsors .main_txt div {
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,30 @@
+.pay {
+    padding-bottom: 50px;
+    padding-top: 194px;
+  }
+  .pay .title {
+    text-align: center;
+    margin-bottom: 54px;
+  }
+  .pay .pay_cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  .pay .pay_cont > div {
+    width: calc(50% - 48px);
+  }
+  .pay .pay_cont .left_top {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 14px;
+  }
+  .pay .pay_cont li {
+    margin-bottom: 8px;
+  }
+  .pay .pay_cont .perc {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .pay .pay_cont .right {
+    line-height: 26px;
+  }

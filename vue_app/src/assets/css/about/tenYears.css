@@ -1,0 +1,74 @@
+.ten_years {
+    padding-top: 148px;
+    background-color: #D3D3D3;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../../img/listovki.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -300px;
+    background-position-y: 32%;
+  }
+  .ten_years::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1500px solid transparent;
+    border-top: 918px solid #191919;
+    border-right: 0 solid #191919;
+  }
+  .ten_years::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 2276px solid transparent;
+    border-bottom: 1224px solid #191919;
+    border-left: 0 solid #191919;
+  }
+  .ten_years .ten_top, .ten_years .ten_bottom {
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #191919;
+    margin: 0 auto 530px;
+    width: 100%;
+    position: relative;
+    padding: 52px 104px 85px;
+    z-index: 1;
+  }
+  .ten_years .ten_top p, .ten_years .ten_bottom p {
+    margin-bottom: 26px;
+  }
+  .ten_years .ten_bottom {
+    margin-left: 147px;
+    width: 82%;
+    padding-top: 90px;
+  }
+  .ten_years .ten_main {
+    text-align: left;
+    margin-bottom: 200px;
+  }
+  .ten_years .ten_main .title {
+    font-size: 50px;
+    line-height: 70px;
+    color: #191919;
+    margin-left: 212px;
+    font-family: "RobotoRegular";
+    font-weight: 700;
+    margin-bottom: 64px;
+  }
+  .ten_years .ten_main .title span {
+    font-size: 150px;
+  }
+  .ten_years .ten_main .title::after {
+    width: 0;
+    height: 0;
+  }
+  .ten_years .ten_main .main_txt {
+    font-size: 16px;
+    line-height: 26px;
+    color: #191919;
+  }
+  .ten_years .ten_main .main_txt p {
+    margin-bottom: 26px;
+  }
